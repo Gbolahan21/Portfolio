@@ -5,7 +5,7 @@ import Section1 from './components/Section1';
 function App() {
   const heading = (
     <div>
-      <h1>to test how to pass props across a component</h1>
+      <h1>to test how to pass props across a component in react</h1>
     </div>
   );
 
