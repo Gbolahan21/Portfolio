@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+
+import Section1 from './components/Section1';
 
 function App() {
+  const heading = (
+    <div>
+      <h1>to test how to pass props across a component</h1>
+    </div>
+  );
+
+  const subheading = (
+    <div>
+      <h1>to know better</h1>
+    </div>
+  );
+
+  const CTA = (
+    <div>
+      <button>click</button>
+    </div>
+  )
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Section1
+        heading={heading}
+        subheading={subheading}
+        CTA={CTA}
+      /> 
     </div>
   );
 }
