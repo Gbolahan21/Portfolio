@@ -1,32 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-import Section1 from './components/Section1';
+import Home from './Home/Index';
+
+import './assets/styles/index.css'
+import './assets/styles/styles.css'
 
 function App() {
-  const heading = (
-    <div>
-      <h1>to test how to pass props across a component in react</h1>
-    </div>
-  );
-
-  const subheading = (
-    <div>
-      <h1>to know better</h1>
-    </div>
-  );
-
-  const CTA = (
-    <div>
-      <button>click</button>
-    </div>
-  )
   return (
     <div className="App">
-      <Section1
-        heading={heading}
-        subheading={subheading}
-        CTA={CTA}
-      /> 
+      <Home />
     </div>
   );
 }

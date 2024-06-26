@@ -1,0 +1,46 @@
+@media only screen and (max-width: 730px) {
+    /* navbar css */
+	.navbar {
+		position: relative;
+	}
+
+    .nav-logo {
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+	.nav-links {
+        position: absolute;
+        flex-direction: column;
+        display: flex;
+        width: 45%;
+        left: -100%;
+        top: 60px;
+        text-align: left;
+        transition: all 0.3s ease;
+        padding: 0 0 15px 0;
+        margin-left: 345px;
+        background-color: rgb(253, 253, 253);
+        border-radius: 20px;
+        margin-top: -40px;
+	}
+
+    .nav-link {
+        margin-top: 5px;
+    }
+
+	.nav-links.active {
+		left: 0;
+	}
+
+	.nav-icon {
+		display: flex;
+        margin-right: 30px;
+        z-index: 1000000;
+	}
+
+    .fix {
+        font-size: 25px;
+    }
+
+}
