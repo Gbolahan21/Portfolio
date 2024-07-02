@@ -1,12 +1,12 @@
 @media only screen and (max-width: 730px) {
     /* navbar css */
 	.navbar {
-		position: relative;
+		position: fixed;
+        z-index: 999;
 	}
 
     .nav-logo {
-        margin-left: 20px;
-        font-size: 25px;
+        margin-left: 28px;
     }
 
 	.nav-links {
@@ -19,14 +19,14 @@
         text-align: left;
         transition: all 0.3s ease;
         padding: 0 0 15px 0;
-        margin-left: 345px;
-        background-color: rgb(253, 253, 253);
+        margin-left: 290px;
+        background-color: #000;
         border-radius: 20px;
-        margin-top: -40px;
+        margin-top: -30px;
 	}
 
     .nav-link {
-        margin-top: 5px;
+        margin-top: 10px;
     }
 
 	.nav-links.active {
@@ -41,6 +41,19 @@
 
     .fix {
         font-size: 25px;
+    }
+
+    /* landingPage */
+    .landingPage .left {
+        margin-top: 54%;
+        margin-left: 28px;
+    }
+
+    .landingPage .text-2{
+        font-size: 60px;
+    }
+    .landingPage .text-3{
+        font-size: 35px;
     }
 
 }

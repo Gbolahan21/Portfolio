@@ -1,10 +1,13 @@
 import React from "react";
 
-import Navbar from "../components/Navbar";
+import { Navbar, LandingPage } from "../components/Index";
 
 const Home = () => {
     return (
-        <Navbar />
+        <>
+            <Navbar />
+            <LandingPage />
+        </>
     )
 }
 
